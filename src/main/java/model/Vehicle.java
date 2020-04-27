@@ -1,10 +1,10 @@
-package util;
+package model;
 
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Example {
+public class Vehicle {
 
     @SerializedName("latitude")
     @Expose
@@ -34,7 +34,7 @@ public class Example {
     /**
      * No args constructor for use in serialization
      */
-    public Example() {
+    public Vehicle() {
     }
 
     /**
@@ -47,7 +47,7 @@ public class Example {
      * @param rpm
      * @param longitude
      */
-    public Example(Double latitude, Double longitude, Double fuelVolume, Integer speed, Integer engineTemperature, Integer coolantTemperature, Integer rpm, Integer tyrePressure) {
+    public Vehicle(Double latitude, Double longitude, Double fuelVolume, Integer speed, Integer engineTemperature, Integer coolantTemperature, Integer rpm, Integer tyrePressure) {
         super();
         this.latitude = latitude;
         this.longitude = longitude;
