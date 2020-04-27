@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97f55ad0-f97a-4752-a798-c7419427e6fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/devices/Vehicle1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/json/vehicle1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/Experiment1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/devices/Vehicle2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/Experiment1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Experiment1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +48,26 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="RunManager">
+    <configuration name="Experiment1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.Experiment1" />
+      <module name="FleetManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Experiment1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -60,11 +78,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587940602437</updated>
-      <workItem from="1587940610140" duration="2948000" />
+      <workItem from="1587940610140" duration="18783000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1737" y="88" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1588007834563">
+      <screen x="1366" y="0" width="1280" height="680" />
+    </state>
+    <state x="1737" y="88" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1588007834563" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1588010740015">
+      <screen x="1366" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1588010740015" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1588010740015">
+      <screen x="1366" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1588010740015" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1588010740015">
+      <screen x="1366" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1588010740015" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1588010740015">
+      <screen x="1366" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1588010740015" />
   </component>
 </project>
