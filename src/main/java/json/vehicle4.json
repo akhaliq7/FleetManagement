@@ -1,0 +1,22 @@
+[
+  {
+    "latitude": 55.9508332,
+    "longitude": -3.361539,
+    "fuel volume": 0.75,
+    "speed": 30,
+    "engine temperature": 85,
+    "coolant temperature": 71,
+    "rpm": 1500,
+    "tyre pressure": 116
+  },
+  {
+    "latitude": 56.4508332,
+    "longitude": -3.861539,
+    "fuel volume": 0.74,
+    "speed": 31,
+    "engine temperature": 84,
+    "coolant temperature": 70,
+    "rpm": 1502,
+    "tyre pressure": 116
+  }
+]

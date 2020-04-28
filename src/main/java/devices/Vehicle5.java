@@ -18,15 +18,15 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Vehicle2 implements Runnable
+public class Vehicle5 implements Runnable
 {
     private boolean quit = false;
     public DeviceClient client;
 
-    public Vehicle2() throws Exception {
+    public Vehicle5() throws Exception {
         DeviceConfig config;
-        DeviceConfigIdentity identity = new DeviceConfigIdentity("sra4nc", "vehicles", "vehicle_2");
-        DeviceConfigAuth auth = new DeviceConfigAuth("JBW4bCHcjNz151vMm(");
+        DeviceConfigIdentity identity = new DeviceConfigIdentity("sra4nc", "vehicles", "vehicle_5");
+        DeviceConfigAuth auth = new DeviceConfigAuth("bRuAUgMh9yQVwSMAxl");
         DeviceConfigOptionsMqtt deviceMQTTOptions = new DeviceConfigOptionsMqtt(8883, "tcp", null, true, 60, 60);
 
         DeviceConfigOptions options = new DeviceConfigOptions();
@@ -39,7 +39,7 @@ public class Vehicle2 implements Runnable
     }
 
     public JsonArray createData() throws IOException {
-        String in = "src/main/java/json/vehicle2.json";
+        String in = "src/main/java/json/vehicle5.json";
         FileReader fis = new FileReader(in);
         //InputStreamReader isr = new InputStreamReader(fis);
         BufferedReader bufferedReader = new BufferedReader(fis);
@@ -98,7 +98,7 @@ public class Vehicle2 implements Runnable
 
     public static void main(String[] args) throws Exception {
         // Start the device thread
-        Vehicle2 d = new Vehicle2();
+        Vehicle5 d = new Vehicle5();
         Thread t1 = new Thread(d);
         t1.start();
 
