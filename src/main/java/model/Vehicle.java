@@ -26,7 +26,7 @@ public class Vehicle {
     private Integer coolantTemperature;
     @SerializedName("rpm")
     @Expose
-    private Integer rpm;
+    private Double rpm;
     @SerializedName("tyre pressure")
     @Expose
     private Integer tyrePressure;
@@ -47,7 +47,7 @@ public class Vehicle {
      * @param rpm
      * @param longitude
      */
-    public Vehicle(Double latitude, Double longitude, Double fuelVolume, Integer speed, Integer engineTemperature, Integer coolantTemperature, Integer rpm, Integer tyrePressure) {
+    public Vehicle(Double latitude, Double longitude, Double fuelVolume, Integer speed, Integer engineTemperature, Integer coolantTemperature, Double rpm, Integer tyrePressure) {
         super();
         this.latitude = latitude;
         this.longitude = longitude;
@@ -107,11 +107,11 @@ public class Vehicle {
         this.coolantTemperature = coolantTemperature;
     }
 
-    public Integer getRpm() {
+    public Double getRpm() {
         return rpm;
     }
 
-    public void setRpm(Integer rpm) {
+    public void setRpm(Double rpm) {
         this.rpm = rpm;
     }
 

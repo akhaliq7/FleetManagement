@@ -15,13 +15,14 @@ import model.Vehicle;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.sql.Timestamp;
 import java.util.HashMap;
 import java.util.Scanner;
 
 public class Vehicle1 implements Runnable
 {
     private boolean quit = false;
-    public DeviceClient client;
+    private static DeviceClient client;
 
     public Vehicle1() throws Exception {
         DeviceConfig config;
@@ -61,8 +62,19 @@ public class Vehicle1 implements Runnable
         for(int i = 0; i < v.length; i++)
         {
             JsonObject d = new JsonObject();
+
+            d.addProperty("id", 1);
+            d.addProperty("name", "John Fowler");
+            d.addProperty("registration_number", "sb20vrd");
             d.addProperty("latitude", v[i].getLatitude());
             d.addProperty("longitude", v[i].getLongitude());
+            d.addProperty("fuel_volume", v[i].getFuelVolume());
+            d.addProperty("speed", v[i].getSpeed());
+            d.addProperty("engine_temperature", v[i].getEngineTemperature());
+            d.addProperty("coolant_temperature", v[i].getCoolantTemperature());
+            d.addProperty("rpm", v[i].getRpm());
+            d.addProperty("tyre_pressure", v[i].getTyrePressure());
+            d.addProperty("timestamp", String.valueOf(new Timestamp(System.currentTimeMillis())));
             map.put("json" + i, d );
             arr.add(map.get("json" + i));
         }
@@ -93,10 +105,15 @@ public class Vehicle1 implements Runnable
             client.disconnect();
         } catch (Exception e) {
             e.printStackTrace();
+        } finally {
+            client.disconnect();
+
+            System.exit(0);
         }
     }
 
     public static void main(String[] args) throws Exception {
+
         // Start the device thread
         Vehicle1 d = new Vehicle1();
         Thread t1 = new Thread(d);
@@ -116,6 +133,7 @@ public class Vehicle1 implements Runnable
 
         System.out.println("Closing connection to the IBM IoT Platform");
         // Let the device thread know it can terminate
+
         d.quit();
     }
 }

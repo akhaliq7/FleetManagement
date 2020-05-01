@@ -2,21 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97f55ad0-f97a-4752-a798-c7419427e6fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/devices/Vehicle3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/devices/Vehicle4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/devices/Vehicle5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/json/vehicle2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/json/vehicle3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/json/vehicle4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/json/vehicle5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Business_Rules.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/devices/Vehicle1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/devices/Vehicle1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/devices/Vehicle2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/devices/Vehicle2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/devices/Vehicle3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/devices/Vehicle3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/devices/Vehicle4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/devices/Vehicle4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/devices/Vehicle5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/devices/Vehicle5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/json/vehicle1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/json/vehicle1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/json/vehicle2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/json/vehicle2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/json/vehicle3.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/json/vehicle3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/json/vehicle4.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/json/vehicle4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/json/vehicle5.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/json/vehicle5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/devices/Vehicle1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/devices/Vehicle1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/devices/Vehicle2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/devices/Vehicle2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Vehicle.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="FleetManagement" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,19 +67,6 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager" selected="Application.Vehicle1">
-    <configuration name="Experiment1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="util.Experiment1" />
-      <module name="FleetManagement" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Vehicle1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="devices.Vehicle1" />
       <module name="FleetManagement" />
@@ -95,11 +93,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Vehicle3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="devices.Vehicle3" />
+      <module name="FleetManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="devices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Vehicle4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="devices.Vehicle4" />
+      <module name="FleetManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="devices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Vehicle5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="devices.Vehicle5" />
+      <module name="FleetManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="devices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Vehicle1" />
+        <item itemvalue="Application.Vehicle5" />
+        <item itemvalue="Application.Vehicle4" />
+        <item itemvalue="Application.Vehicle3" />
         <item itemvalue="Application.Vehicle2" />
-        <item itemvalue="Application.Experiment1" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +152,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587940602437</updated>
-      <workItem from="1587940610140" duration="28121000" />
+      <workItem from="1587940610140" duration="28788000" />
+      <workItem from="1588098997988" duration="6351000" />
+      <workItem from="1588116945539" duration="2618000" />
+      <workItem from="1588161254422" duration="36193000" />
+      <workItem from="1588241841956" duration="36067000" />
+      <workItem from="1588320628056" duration="6650000" />
+      <workItem from="1588342279745" duration="831000" />
     </task>
     <servers />
   </component>
@@ -125,25 +170,71 @@
       <screen x="1366" y="0" width="1280" height="680" />
     </state>
     <state x="1737" y="88" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1588007834563" />
+    <state x="1618" y="0" key="CommitChangelistDialog2" timestamp="1588113262405">
+      <screen x="1366" y="0" width="1280" height="680" />
+    </state>
+    <state x="1618" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1588113262405" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1588032218203">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1588032218203" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1588024650264">
+    <state width="1237" height="134" key="GridCell.Tab.0.bottom" timestamp="1588339677589">
       <screen x="1366" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1588024650264" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1588024650264">
+    <state width="1237" height="148" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1588298975956" />
+    <state width="1237" height="134" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1588339677589" />
+    <state width="1323" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588224944956" />
+    <state width="1237" height="134" key="GridCell.Tab.0.center" timestamp="1588339677589">
       <screen x="1366" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1588024650264" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1588024650264">
+    <state width="1237" height="148" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1588298975956" />
+    <state width="1237" height="134" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1588339677589" />
+    <state width="1323" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588224944954" />
+    <state width="1237" height="134" key="GridCell.Tab.0.left" timestamp="1588339677589">
       <screen x="1366" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1588024650264" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1588024650264">
+    <state width="1237" height="148" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1588298975956" />
+    <state width="1237" height="134" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1588339677589" />
+    <state width="1323" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588224944954" />
+    <state width="1237" height="134" key="GridCell.Tab.0.right" timestamp="1588339677589">
       <screen x="1366" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1588024650264" />
+    <state width="1237" height="148" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1588298975956" />
+    <state width="1237" height="134" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1588339677589" />
+    <state width="1323" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588224944956" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1588224944942">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1588165233655" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588224944942" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1588224944942">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1588165233655" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1588224944942" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1588224944942">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1588165233655" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1588224944942" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1588224944942">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1588165233655" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1588224944942" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1588342341374">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1588099774455" />
+    <state x="1721" y="176" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1588320658573" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588342341374" />
+    <state x="1457" y="43" key="new project wizard" timestamp="1588179902869">
+      <screen x="1366" y="0" width="1280" height="680" />
+    </state>
+    <state x="1457" y="43" key="new project wizard/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1588179902869" />
+    <state x="339" y="17" width="670" height="676" key="search.everywhere.popup" timestamp="1588224428063">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="17" width="670" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1588224428063" />
   </component>
 </project>

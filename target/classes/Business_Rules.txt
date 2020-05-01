@@ -1,0 +1,38 @@
+Abbreviations: Business Rules: BR, Minimum: Min, Maximum: Max
+Dynamic Data:
+ Latitude:
+  55
+ Longitude:
+  -3
+ Fuel Volume
+  Min: 0 BR Min: 0.20 Max: 1
+ Speed
+  Min: 0  BR Max: 80 Max: 120
+ Engine Temperature
+  Min: 0 BR Min: 75 BR Max: 102 Max: 140
+ Coolant Temperature
+  Min: 0 BR Min: 71 BR Max: 93 Max: 120
+ RPM
+  Min: 0 BR Max: 8  Max: 10
+ Tyre Pressure
+  Min: 0 BR Min:95 BR Max: 123 Max: 130
+
+1. When Fuelling speed, RPM must be 0, lat and long must be static.
+2. Speed and RPM must co-allign.
+3. When Tyre Pressure being filled then speed and rpm must be 0.
+
+Vehicle 1:
+Fuel Volume: 0.75 - 0.26
+Speed: Highway Speed: 60-80, [83, 85] - report values going up threshold
+Vehicle 2:
+Fuel Volume: 0.50 - 0.83, values goes below the threshold for fuel
+Speed: Highway Speed: 60-80, No speeding to report
+Vehicle 3:
+Fuel Volume: 1.00 - 51
+Speed: Highway Speed: 60-80, No speeding to report
+Vehicle 4:
+Fuel Volume: 0.30 - 59, values goes below the threshold for fuel
+Speed: Highway Speed: 60-80, [81, 83] - report values going up threshold
+Vehicle 5:
+Fuel Volume: 0.89 - 0.40
+Speed: Highway Speed: 60-80, No speeding to report
